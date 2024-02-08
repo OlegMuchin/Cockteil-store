@@ -1,0 +1,19 @@
+.Stock{
+    width: 1352px;
+    height: 535px;
+    flex-shrink: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.productsStock{
+    margin-left: 143px;
+
+    display: flex;
+}
+#heart{
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+}

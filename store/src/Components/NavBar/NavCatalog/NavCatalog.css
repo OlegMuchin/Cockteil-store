@@ -1,0 +1,71 @@
+.NavCatalog{
+    display: none;
+    position: absolute;
+    top: 48px;
+    left: 135px;
+    width: 278px;
+    height: 855px;
+    flex-shrink: 0;
+    background: #121212;
+    box-shadow: 0px 4px 20px 0px rgba(51, 51, 51, 0.05);
+}
+.listCatalog{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 124px;
+    left: 18px;
+    justify-content: space-between;
+    width: 120px;
+    height: 263px;
+    flex-shrink: 0;
+}
+.tag_catalog{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    text-decoration: none;
+    color: #FFFDF5;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+    cursor: pointer;
+}
+.tag_catalog:hover{
+    color: #FFFDF5;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.active{
+    color: #FFFDF5;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.NavCatalogPlus{
+    display: none;
+    position: absolute;
+    left: 195px;
+    width: 195px;
+    height: 855px;
+    flex-shrink: 0;
+    background: #121212;
+    box-shadow: 0px 4px 20px 0px rgba(51, 51, 51, 0.05);
+    padding-top: 118px;
+}
+.listCatalogPlus{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 137px;
+    height: 318px;
+    flex-shrink: 0;
+}

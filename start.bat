@@ -1,0 +1,2 @@
+cd ./store
+npm start

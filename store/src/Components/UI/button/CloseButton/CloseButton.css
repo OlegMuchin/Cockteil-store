@@ -1,0 +1,10 @@
+.CloseButton{
+    width: 67px;
+    height: 67px;
+    flex-shrink: 0;
+    cursor: pointer;
+    background-image: url("../../../../../public/img/icons/MiniEllipsePurple.svg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,56 @@
+.contentFAQ{
+    width: 1170px;
+    height: 497px;
+    flex-shrink: 0;
+}
+.Questions{
+    margin-top: 50px;
+}
+.Question{
+    margin-top: 5px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Question_text{
+    display: flex;
+    width: 800px;
+    height: 12px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+
+    color: #121212;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.Open_answer{
+    background: none;
+    border: none;
+}
+.Answer{
+    display: flex;
+    width: 1170px;
+    height: 50px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+}
+.Answer .Answer_text{
+    display: flex;
+    width: 1170px;
+    height: 50px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #7D7D7D;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 118%; /* 18.88px */
+}

@@ -1,0 +1,12 @@
+.Title{
+    display: flex;
+    height: 40px;
+    align-self: flex-start;
+    flex-shrink: 0;
+    color: #121212;
+    font-family: "Roboto";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 34.922px;
+}

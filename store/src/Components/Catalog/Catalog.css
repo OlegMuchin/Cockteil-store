@@ -1,0 +1,101 @@
+.Catalog{
+    margin-top: 48px;
+}
+.CatalogContent{
+    margin-top: 62px;
+    width: 1170px;
+}
+.CatalogContent .NavTags a{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #7D7D7D;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.CatalogContent .Title{
+    margin-top: 61px;
+}
+.Catalog_filterOnWord{
+    margin: 60px 0;
+    width: 812px;
+    height: 13px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.Catalog_filterOnWord .filter_text{
+    display: flex;
+    width: 167px;
+    height: 13px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #7D7D7D;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.Catalog_filterOnWord .filter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #121212;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+}
+.Catalog_filterOnNumbers{
+    display: flex;
+    flex-direction: column;
+    width: 138px;
+    height: 147px;
+    flex-shrink: 0;
+    justify-content: space-between;
+}
+.Catalog_filterOnNumbers .text_filter{
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    color: #121212;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.Catalog_filterOnNumbers .rangePrice{
+    width: 138px;
+    height: 7px;
+    flex-shrink: 0;
+    background-color: #514A7E;
+}
+.selectFilter{
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    border: none;
+    background-color: none;
+    color: #514A7E;
+}
+.CatalogProducts{
+    display: flex;
+    justify-content: space-between;
+}
+.Products{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 971.216px;
+}

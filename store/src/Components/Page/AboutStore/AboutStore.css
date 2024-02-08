@@ -1,0 +1,51 @@
+.AboutStore{
+    height: 618px;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+}
+.textAboutStore{
+    width: 1029px;
+    height: 318px;
+
+    display: flex;
+    flex-direction: column;
+}
+.textAboutStore .title{
+    color: #121212;
+    font-family: "Roboto";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 34.922px;
+
+    display: flex;
+    width: 440px;
+    height: 40px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+}
+.Causes{
+    margin-top: 50px;
+    display: flex;
+    align-items: flex-start;
+    height: 150px;
+}
+.Causes #text{
+    width: 175px;
+    height: 26px;
+    color: #7D7D7D;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 16.52px;
+
+    display: flex;
+    flex-shrink: 0;
+}
+.Causes .down{
+    align-self: flex-end;
+}

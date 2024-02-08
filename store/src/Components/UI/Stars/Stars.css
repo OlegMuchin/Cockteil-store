@@ -1,0 +1,10 @@
+.Stars{
+    display: flex;
+    flex-direction: row;
+}
+#imgStar{
+    margin-left: 2px;
+    width: 10px;
+    height: 10px;
+    flex-shrink: 0;
+}

@@ -1,0 +1,77 @@
+.InvitationSuppliers{
+    height: 561px;
+    width: 100%;
+    display: flex;
+}
+.blockInvitationSuppliers{
+    width: 971px;
+    height: 411.239px;
+    flex-shrink: 0;
+    background: #514A7E;
+    box-shadow: 0px 4px 20px 0px rgba(51, 51, 51, 0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.textInvitationSuppliers{
+    width: 714px;
+    height: 332.576px;
+    flex-shrink: 0;
+    background: #FFFDF5;
+    box-shadow: 0px 4px 20px 0px rgba(51, 51, 51, 0.05);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5%;
+}
+.textInvitationSuppliers label{
+    color: #121212;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23.6px;
+
+    display: flex;
+    width: 611px;
+    height: 33.855px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+}
+.textInvitationSuppliers div{
+    width: 228px;
+    height: 106px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.textInvitationSuppliers div input{
+    width: 228px;
+}
+.textInvitationSuppliers div label{
+    width: 228px;
+    color: #7D7D7D;
+    text-align: center;
+    font-family: "Roboto variant1";
+    font-size: 8px;
+    font-style: normal;
+    line-height: 9.44px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+.textInvitationSuppliers div label input{
+    width: 7px;
+    height: 6.97px;
+    flex-shrink: 0;
+    stroke-width: 0.5px;
+    stroke: #514A7E;
+    cursor: pointer;
+}

@@ -1,0 +1,70 @@
+.modal-window{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    overflow: hidden;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    display:  none;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    z-index: 99;
+    padding:30px 0;
+    background-color:rgba(0, 0, 0, .5);
+}
+.hystmodal--active{
+    visibility: visible;
+}
+.hystmodal--active .modal-transfer{
+    transform: scale(1);
+    opacity: 1;
+}
+
+.modal-wrap{
+    flex-shrink: 0;
+    flex-grow: 0;
+    width: 100%;
+    min-height: 100%;
+    margin: auto;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-transfer{
+    margin: 50px 0;
+    flex-shrink: 0;
+    flex-grow: 0;
+    background: #FFFDF5;
+    width: 1440px;
+    height: 434px;
+    max-width: 100%;
+    overflow: visible;
+    transition: transform 0.2s ease 0s, opacity 0.2s ease 0s;
+    transform: scale(0.9);
+    opacity: 0;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.InvitationSuppliersText{
+    width: 685px;
+    height: 87px;
+    flex-shrink: 0;
+}
+.modal-transfer .CloseButton{
+    position: absolute;
+    margin-bottom: 340px;
+    margin-left: 1257px;
+}

@@ -1,0 +1,59 @@
+.Product{
+    display: flex;
+    flex-direction: column;
+}
+.Product_content{
+    display: flex;
+    flex-direction: column;
+    height: 81px;
+    flex-shrink: 0;
+}
+.Product_content .content{
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+}
+.content .Stars{
+    width: 60px;
+    align-items: end;
+}
+.Product_content label{ 
+    color: #7D7D7D;
+    font-family: "Roboto";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    word-spacing: 0px;
+}
+.Product_content label .priceNow{
+    color: #121212;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.Product_content label .price{
+    color: #7D7D7D;
+    font-family: "Roboto";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-decoration: line-through;
+}
+.content .content_icons{
+    width: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+#heart{
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+#bag{
+    cursor: pointer;
+}

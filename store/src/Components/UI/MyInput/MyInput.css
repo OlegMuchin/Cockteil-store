@@ -1,0 +1,28 @@
+.MyInput{
+    outline: none;
+    border: none;
+    border-bottom: 0.5px solid #7D7D7D;;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    background: none;
+}
+.MyInput:placeholder{
+    display: flex;
+    width: 34px;
+    height: 9px;
+    align-items: center;
+    flex-shrink: 0;
+    color: #7D7D7D;
+    font-size: 12px;
+    font-style: normal;
+    line-height: 14.16px;
+}
+
+.MyInput[type=text]::-ms-clear {  display: none; width : 0; height: 0; }
+.MyInput[type=text]::-ms-reveal {  display: none; width : 0; height: 0; }
+.MyInput[type="search"]::-webkit-search-decoration,
+.MyInput[type="search"]::-webkit-search-cancel-button,
+.MyInput[type="search"]::-webkit-search-results-button,
+.MyInput[type="search"]::-webkit-search-results-decoration { 
+	display: none;
+}
